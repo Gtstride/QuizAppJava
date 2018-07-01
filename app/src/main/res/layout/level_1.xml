@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list view -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/questions"
+        android:paddingBottom="200dp">
+
+<LinearLayout
+    android:id="@+id/ques1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/default_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.    What year did Nigeria gain Independence"/>
+
+    <CheckBox
+        android:id="@+id/default_text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a :  1960"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <CheckBox
+        android:id="@+id/default_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b :  1975"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <CheckBox
+        android:id="@+id/default_text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c :  1965"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <CheckBox
+        android:id="@+id/default_text_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d :  1980"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+</LinearLayout>
+        <LinearLayout
+            android:id="@+id/ques2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_below="@+id/ques1">
+
+            <TextView
+                android:id="@+id/default_text_view_qst2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Which region declared its independence from Nigeria in 1967 and was unsuccessful?"/>
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a :  Calabar"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b :  Sapele"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c :  Warri"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst2d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d :  Biafra"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ques3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_below="@+id/ques2">
+
+            <TextView
+                android:id="@+id/default_text_view_qst3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.    Which water body is close to Nigeria?"/>
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a :  Gulf of Guinea"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b :  Walvis Bay"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c :  Gulf of Aqaba"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d :  Suez Canal"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ques4"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_below="@+id/ques3">
+
+            <TextView
+                android:id="@+id/default_text_view_qst4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. When did the British formally unite the “Colony and Protectorate of Nigeria?"/>
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a :  1900"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b :  1885"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c :  1914"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/default_text_view_qst4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d :  1918"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/submit_reset"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_below="@+id/ques4">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/reset"
+                android:layout_toRightOf="@+id/reset"
+                android:onClick="submit"
+                android:paddingLeft="2dp"
+                android:text="Submit" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp"
+                android:layout_toEndOf="@+id/result"
+                android:layout_toRightOf="@+id/result"
+                android:onClick="reset"
+                android:paddingLeft="20dp"
+                android:text="REST" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/reset"
+                android:text="result"
+                android:id="@+id/result"
+                android:paddingLeft="40dp"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

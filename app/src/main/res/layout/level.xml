@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridView1"
+    android:numColumns="auto_fit"
+    android:gravity="center"
+    android:columnWidth="100dp"
+    android:stretchMode="columnWidth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level"
+    android:onClick="level">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/grid_item_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GOVERNMENT"
+                android:layout_marginTop="13dp"
+                android:textSize="28dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="20dp">
+            </Button>
+
+            <Button
+                android:id="@+id/grid_item_label_static"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HISTORY"
+                android:layout_marginTop="60dp"
+                android:textSize="45dp"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="10dp"/>
+
+            <Button
+                android:id="@+id/grid_item_label_static1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Geography"
+                android:layout_marginTop="25dp"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
